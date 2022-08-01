@@ -2,8 +2,8 @@
 
 function Card() {
     return (
-        <div>
-            <img src='' alt='Robot'/>
+        <div className="bg-light-green dib br3 pa3 ma2 grow">
+            <img src='https://robohash.org/test' alt='Robot'/>
             <div>
                 <h2>Jane Doe</h2>
                 <p>jane.doe@gmail.com</p>
