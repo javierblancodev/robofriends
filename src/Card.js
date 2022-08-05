@@ -1,12 +1,13 @@
 
 
-function Card() {
+function Card({ name, email, id }) {
+
     return (
-        <div className="bg-light-green dib br3 pa3 ma2 grow">
-            <img src='https://robohash.org/test' alt='Robot'/>
+        <div className="tc bg-light-green dib br3 pa3 ma2 grow">
+            <img src={`https://robohash.org/${id}`} alt='Robot'/>
             <div>
-                <h2>Jane Doe</h2>
-                <p>jane.doe@gmail.com</p>
+                <h2>{name}</h2>
+                <p>{email}</p>
             </div>
         </div>
     )
